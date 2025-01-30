@@ -9,3 +9,8 @@ I love to code.
 I love to eat biryani.`
 
 console.log(temString)
+
+
+// arrow function with default parameter
+const add=(first,second=5)=>first+second;
+console.log(add(4))
