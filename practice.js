@@ -27,3 +27,15 @@ for(const cher of friend){
         console.log(evenLength)
     }
 }
+
+
+const doMath=(a,b,c)=>{
+    const squire1=a*2;
+    const squire2=b*2;
+    const squire3=c*3;
+    const aver=squire1+squire2+squire3/3;
+    return aver
+
+}
+
+console.log(doMath(2,3,4))
