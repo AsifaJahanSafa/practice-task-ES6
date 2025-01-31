@@ -38,4 +38,7 @@ const doMath=(a,b,c)=>{
 
 }
 
-console.log(doMath(2,3,4))
+console.log(doMath(2,3,4));
+
+
+
