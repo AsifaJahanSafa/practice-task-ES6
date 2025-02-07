@@ -54,4 +54,36 @@ let students={
 }
 
 console.log(students[2222].address.City);
-console.log(students[3333].name)
+console.log(students[3333].name);
+
+
+// Task-3
+let date2={
+    data:[
+        {
+            bookId:1,
+            bookDetails:{
+                name:"Habluder Adda",
+                catagory:"xyz",
+                price:"20$",
+
+            },
+
+            bookCatagory:"basic"
+        },
+
+        {
+            bookId:2,
+            bookDetails:{
+                name:"gobluder Adda",
+                catagory:"abc",
+                price:"50$",
+
+            },
+
+            bookCatagory:"basic"
+        }
+    ]
+}
+
+console.log(date2.data[0].bookDetails.name)
