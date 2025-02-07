@@ -22,4 +22,36 @@ let data={
 
 }
 
-console.log(data.Sophia.study[1].Secondary[1].location)
+console.log(data.Sophia.study[1].Secondary[1].location);
+
+// task-2
+
+let students={
+    2222:{
+        name:"Jack",
+        section:"C",
+        class:"IX",
+        address:{
+            "building No":12,
+            "street":"St. Jason",
+            "City":"Petersburgs",
+            "Country":"UK"
+        }
+    },
+        3333:{
+            name:"Harry",
+            section:"D",
+            class:"X",
+            address:{
+                "building No":85,
+                "street":"barmingham",
+                "City":"Landon",
+                "Country":"UK"
+            },
+
+        }
+    
+}
+
+console.log(students[2222].address.City);
+console.log(students[3333].name)
